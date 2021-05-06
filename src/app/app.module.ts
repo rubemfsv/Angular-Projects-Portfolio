@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardModule } from './dashboard';
 import { CalculadoraModule } from './calculator';
 import { ConverterModule } from './converter';
+import { TasksModule } from './tasks';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,6 +20,7 @@ import { ConverterModule } from './converter';
     DashboardModule,
     CalculadoraModule,
     ConverterModule,
+    TasksModule,
     AppRoutingModule,
   ],
   providers: [],
