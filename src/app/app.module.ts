@@ -5,8 +5,10 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+
 import { DashboardModule } from './dashboard';
 import { CalculadoraModule } from './calculator';
+import { ConverterModule } from './converter';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,6 +18,7 @@ import { CalculadoraModule } from './calculator';
     HttpClientModule,
     DashboardModule,
     CalculadoraModule,
+    ConverterModule,
     AppRoutingModule,
   ],
   providers: [],
