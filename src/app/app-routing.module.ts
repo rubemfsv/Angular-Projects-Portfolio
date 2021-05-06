@@ -4,6 +4,7 @@ import { DashboardRoutes } from './dashboard';
 import { CalculatorRoutes } from './calculator';
 import { ConverterRoutes } from './converter/converter-routing.module';
 import { TaskRoutes } from './tasks';
+import { TicTacToeRoutes } from './tic-tac-toe/tic-tac-toe-routing.module';
 
 export const routes: Routes = [
   {
@@ -15,6 +16,7 @@ export const routes: Routes = [
   ...CalculatorRoutes,
   ...ConverterRoutes,
   ...TaskRoutes,
+  ...TicTacToeRoutes,
 ];
 
 @NgModule({
